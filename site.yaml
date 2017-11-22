@@ -6,7 +6,7 @@
      - osp-securitygroup
      - osp-flavor
   tasks:
-##Create Fronend Instance
+#Create Fronend Instance
   - name: Create frontend instance
     include_role:
        name: osp-instances
